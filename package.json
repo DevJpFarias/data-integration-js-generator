@@ -1,0 +1,12 @@
+{
+  "name": "data-integration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start:server1": "node --no-warnings src/server1.js",
+    "start:server2": "node --no-warnings src/server2.js",
+    "start:client": "node --no-warnings src/client.js"
+  }
+}
